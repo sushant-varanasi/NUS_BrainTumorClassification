@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Home page</title>
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Brain MRI tumor classification</h1>
+			<p>This webapp is used to classify brain MRI tumor images into HGG and LGG.</p>
+			<!-- <form action="/action_page.php">
+				<input type="file" id="myFile" name="filename">
+				<input type="submit"> -->
+				<br>Upload the {{type}} image
+				<form method=post enctype=multipart/form-data>
+					
+					<br>
+
+				<!-- <label for="formFileLg" class="form-label">Upload the {{type}} image</label> -->
+				<!-- <input class="form-control form-control-lg" id="formFileLg" type="file"> -->
+				<!-- <form action="/upload/"> -->
+					<input type=file name=file multiple>
+					<br><input type="submit">
+				<p> <br><br>Result : {{result}}
+			</form>
+		</div>
+	</div>
+
+	<!-- </form> -->
+	<footer>
+		<p> &#160&#160&#160 Group 9 </p>
+	</footer>
+</body>
+
+</html>

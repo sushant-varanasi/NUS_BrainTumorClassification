@@ -1,0 +1,6 @@
+
+PointNet : 
+https://github.com/luis-gonzales/pointnet_own
+https://medium.com/@luis_gonzales/an-in-depth-look-at-pointnet-111d7efdaa1a
+https://keras.io/examples/vision/pointnet/
+http://stanford.edu/~rqi/pointnet/docs/cvpr17_pointnet_slides.pdf
